@@ -2,6 +2,7 @@
 
 Developers:
 - DobbiKov
+- SecondDobbiKov
 
 ## Project structure
 - [client(Site)](./client)
