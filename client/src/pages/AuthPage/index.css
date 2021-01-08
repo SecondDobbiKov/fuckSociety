@@ -1,0 +1,117 @@
+.auth-page{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.auth-container{
+    width: 30%;
+    height: 70%;
+    background-color: #433E3E;
+}
+/*      [TOP BUTTONS]        */
+.top-buttons{
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+.button{
+    height: 100%;
+    width: 30%;
+    padding-right: 10px;
+}
+.button-active{
+    background: #635F5F;
+}
+.button-inner{
+    width: 100%;
+    height: 100%;
+    border-top: 5px solid #1546F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.button-inner:hover{
+    background: #635F5F;
+    cursor: pointer;
+}
+.button-inner p{
+    padding-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+}
+@media screen and (max-width: 991px){
+    .auth-container{
+        width: 80%;
+    }
+    .button{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 767px){
+    .auth-container{
+        width: 100%;
+        height: 100%;
+    }
+    .button{
+        width: 30%;
+    }
+}
+
+/* MAIN */
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-inner{
+    width: 80%;
+    height: 90%;
+}
+.input{
+    padding-top: 20px;
+    width: 100%;
+}
+.input p{
+    color: white;
+}
+.input input{
+    width: 100%;
+    height: 50px;
+}
+.button-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button-a{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.button-a a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background: #fff;
+    color: #433E3E;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: .3s;
+}
+.button-a a:hover{
+    background: #433E3E;
+    color: #fff;
+    cursor: pointer;
+}
